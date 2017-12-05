@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:background="@drawable/textview_cricle_white"
+    android:layout_height="wrap_content">
+   <ImageView
+       android:id="@+id/iv"
+       android:layout_marginTop="20dp"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:scaleType="centerCrop"
+       android:layout_centerHorizontal="true"
+       android:src="@mipmap/finger_red"/>
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bak_blue"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="支付狗的TouchID"/>
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_top"
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:text="通过Home键验证已有手机指纹"
+        android:gravity="center"
+        android:textColor="@color/font_black"
+        android:layout_height="wrap_content" />
+    <View
+       android:layout_marginTop="10dp"
+        android:id="@+id/view_one"
+        android:layout_below="@id/tv_second"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/bak_blue"
+        android:text="取消"/>
+</RelativeLayout>

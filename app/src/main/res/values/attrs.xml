@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SecurityCenter">
+        <!-- 选中状态的手势点-->
+        <attr name="selectedBitmap" format="reference"/>
+        <!-- 未选中状态的手势点-->
+        <attr name="unselectedBitmap" format="reference"/>
+        <!-- 选中状态的手势小点-->
+        <attr name="selectedBitmapSmall" format="reference"/>
+        <!-- 未选中状态的手势小点-->
+        <attr name="unselectedBitmapSmall" format="reference"/>
+        <!-- 验证失败后再次验证的拦截时间-->
+        <attr name="waitTime" format="integer"/>
+        <!-- 验证的最大失败次数-->
+        <attr name="maxFailCounts" format="integer"/>
+        <!-- 绘制时最少连接的点数-->
+        <attr name="minPoint" format="integer"/>
+        <!-- 字体的颜色-->
+        <attr name="paintColor" format="color"/>
+        <!-- 字体的大小-->
+        <attr name="paintTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
